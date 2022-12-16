@@ -35,8 +35,8 @@ class _VEState extends State<VE> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            RaisedButton(
-              color: Theme.of(context).primaryColor,
+            TextButton(
+              //color: Theme.of(context).primaryColor,
               onPressed: _launchURLBrowser,
               child: (language=="NP")? Text('वेबसाइटमा जानुहोस्',style: TextStyle(color: Colors.white)):
                 Text('Go to website',style: TextStyle(color: Colors.white),),
